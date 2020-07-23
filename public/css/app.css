@@ -9910,44 +9910,71 @@ h3 {
     border-color: #dee2e6;
   }
 }
+.bg-image {
+  background-image: url(../../images/main_bg.jpg);
+  width: 100%;
+  height: 1000px;
+}
+
+.box-left-top {
+  background-image: url(../../images/box-left-top-grey.png);
+  width: 40px;
+}
+
+.width {
+  width: 40px;
+}
+
 body {
   margin: 0px;
   padding: 0px;
 }
-body header {
+
+.p-relative {
+  position: relative;
+  top: 100px;
+}
+
+.p-absolute {
+  position: absolute;
+  bottom: 1200px;
+  left: 25%;
+}
+
+.p-relative2 {
   position: relative;
 }
-body header .container {
-  margin-top: 50px;
-  margin-left: 350px;
-  position: fixed;
+
+.p-absolute2 {
+  position: absolute;
+  bottom: 500px;
+  left: 20%;
 }
-body header .nav-link {
+
+.nav-link {
   text-decoration: none;
+  color: black;
+}
+
+.carousel-indicators {
+  margin-top: 500px;
+}
+
+.centered {
+  padding: 200px;
+}
+
+.a-style {
   color: white;
   font-size: 20px;
-  opacity: 2;
   border-bottom: solid 2px;
   border-top: solid 2px;
-  color: white;
   padding: 15px;
+  text-decoration: none;
 }
-body header .nav-link:hover {
+
+.a-style:hover {
   background-color: red;
-}
-
-.bgbanner {
-  filter: brightness(40%);
-  position: absolute;
-  z-index: -1;
-  top: 0;
-}
-
-.caroubg {
-  position: absolute;
-  z-index: 1;
-  margin-top: 30%;
-  margin-bottom: 30%;
 }
 
 /*# sourceMappingURL=app.css.map */
