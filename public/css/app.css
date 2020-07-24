@@ -9910,19 +9910,151 @@ h3 {
     border-color: #dee2e6;
   }
 }
+.img-testimonials {
+  background-image: url(../../images/testimonials_background.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 800px;
+}
+
+.card-img {
+  border-radius: 50%;
+  border: 3px solid lightgrey;
+}
+
+.card {
+  background: none;
+}
+
+.bg-contact {
+  background-image: url(../../images/main_bg.jpg);
+  height: 1400px;
+}
+
+.book-red {
+  color: red;
+}
+
+.text-courgette {
+  font-family: "Courgette", cursive;
+}
+
+.img-container {
+  background-image: url(../../images/book_table_bg.jpg);
+  border-radius: 20px;
+}
+
+.inputField input {
+  margin: 10px;
+  border-radius: 15px;
+  padding: 10px 20px;
+}
+
+.titre-contact {
+  color: white;
+}
+
+.gras {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.img2-relatif {
+  position: relative;
+}
+
+.img2-absolute {
+  position: absolute;
+  border-radius: 15px;
+  padding: 15px;
+  top: 240px;
+  left: 100px;
+}
+
+.bg-chef {
+  background-image: url(../../images/team_background.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 500px;
+}
+
+.chef {
+  border-bottom: solid white;
+}
+
 .bg-image {
   background-image: url(../../images/main_bg.jpg);
   width: 100%;
-  height: 1000px;
+  height: 1400px;
 }
 
-.box-left-top {
-  background-image: url(../../images/box-left-top-grey.png);
-  width: 40px;
+.bg-relatif {
+  position: relative;
+  top: 100px;
+  background-color: white;
+  border: solid grey;
+  width: 1500px;
+  height: 1200px;
+  padding: 0;
 }
 
-.width {
-  width: 40px;
+.OUR-Story {
+  position: absolute;
+  width: 40%;
+  top: 10px;
+  left: 300px;
+}
+.OUR-Story h1 {
+  text-align: center;
+  font-family: "Courgette", cursive;
+}
+.OUR-Story img {
+  margin-right: 20px;
+}
+.OUR-Story p {
+  margin-top: 20px;
+  margin-left: 15px;
+}
+
+.OUR2-Story {
+  position: absolute;
+  width: 40%;
+  bottom: 650px;
+  left: 300px;
+  font-family: "Courgette", cursive;
+}
+.OUR2-Story h1 {
+  text-align: center;
+}
+
+.span-red {
+  color: red;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.box-right-top-grey {
+  position: absolute;
+  right: 0;
+}
+
+.box-bottom-left-grey {
+  position: absolute;
+  bottom: 0;
+}
+
+.box-bottom-right-grey {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.decoration_line {
+  position: absolute;
+  bottom: 30px;
+  left: 300px;
 }
 
 body {
@@ -9930,25 +10062,26 @@ body {
   padding: 0px;
 }
 
-.p-relative {
+.img-header img {
   position: relative;
-  top: 100px;
 }
 
-.p-absolute {
-  position: absolute;
-  bottom: 1200px;
-  left: 25%;
+.p-relative {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .p-relative2 {
-  position: relative;
+  position: absolute;
+  top: 20%;
+  left: 20%;
 }
 
-.p-absolute2 {
-  position: absolute;
-  bottom: 500px;
-  left: 20%;
+.carousel-indicators li {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
 }
 
 .nav-link {
