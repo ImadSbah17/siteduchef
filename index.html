@@ -1,261 +1,392 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./public/css/app.css">
-    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
-</head>
-<body>
-<!-- =====================HEADER======================= -->
-    <header>
-      <div class="img-header">
-        <img src="./images/banner1.jpg" alt="" class="w-100">
-      </div>
-<!-- ========================NAVBAR========================== -->
-      <section class="">
-          <nav class="p-relative navbar navbar-expand-lg navbar-dark nav-height p-absolute">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
 
-            <div class="container">
-              <ul class="nav justify-content-center ">
-                  <li class="nav-item ">
-                    <a class="nav-link active a-style" href="#">HOME</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link a-style" href="#">ABOUT US</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link a-style" href="#">MENU LIST</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link a-style" href="#">TEAM</a>
-                  </li>
-                  <li> <img src="./images/logo.png" alt=""></li>
-                  <li class="nav-item">
-                    <a class="nav-link active a-style" href="#">RESERVATION</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link a-style" href="#">BLOG</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link a-style" href="#">TESTIMONIALS</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link a-style" href="#">CONTACT US</a>
-                    </li>
-                </ul>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./public/css/app.css">
+  <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.css">
+</head>
+
+<body>
+  <!-- =====================HEADER======================= -->
+  <header>
+    <div class="img-header">
+      <img src="./images/banner1.jpg" alt="" class="w-100">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+    </div>
+    <!-- ========================NAVBAR========================== -->
+    <section class="">
+      <nav class="p-relative navbar navbar-expand-lg navbar-dark nav-height p-absolute p-0">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="container pt-5 pl-0 ">
+          <ul class="nav justify-content-center ">
+            <li class="nav-item ">
+              <a class="nav-link active a-style" href="#">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link a-style" href="#">ABOUT US</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link a-style" href="#">MENU LIST</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link a-style" href="#">TEAM</a>
+            </li>
+            <li> <img src="./images/logo.png" class="" alt=""></li>
+            <li class="nav-item">
+              <a class="nav-link active a-style" href="#">RESERVATION</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link a-style" href="#">BLOG</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link a-style" href="#">TESTIMONIALS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link a-style" href="#">CONTACT US</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </section>
+    <!-- =========================CAROUSSEL========================= -->
+    <section class="p-relative2">
+      <div class="div_carousel p-absolute2">
+        <div id="carouselExampleIndicators" class="carou carousel slide" data-ride="carousel">
+          <!-- <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol> -->
+          <div class="carousel-inner ">
+            <div class="carousel-item active">
+              <div class="centered">
+                <h1>Whatever your <span class="txt_big">OCCASION</span>, <span class="txt_big text-danger"> TASTE</span>
+                  <span class="txt_big">makes</span> it one <br>to <span class="txt_big">remenber</span></h1>
+                <button class="btn_white">purchase theme</button>
+                <button class="btn_red">learn more</button>
+              </div>
             </div>
-          </nav>
-      </section>
-<!-- =========================CAROUSSEL========================= -->
-      <section class="p-relative2">
-        <div class="div_carousel p-absolute2">
-          <div id="carouselExampleIndicators" class="carou carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner ">
-              <div class="carousel-item active">
-                <div class="centered">
-                  <h1>Whatever your <span class="txt_big">OCCASION</span>, <span class="txt_big text-danger"> TASTE</span>
-                    <span class="txt_big">makes</span> it one <br>to <span class="txt_big">remenber</span></h1>
-                  <button class="btn_white">purchase theme</button>
-                  <button class="btn_red">learn more</button>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="centered">
-                  <h1>Whatever your <span class="txt_big">OCCASION</span>, <span class="txt_big text-danger"> TASTE</span>
-                    <span class="txt_big">makes</span> it one <br>to <span class="txt_big">remenber</span></h1>
-                  <button class="btn_white">purchase theme</button>
-                  <button class="btn_red">learn more</button>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="centered">
-                  <h1>Whatever your <span class="txt_big">OCCASION</span>, <span class="txt_big text-danger"> TASTE</span>
-                    <span class="txt_big">makes</span> it one <br>to <span class="txt_big">remenber</span></h1>
-                  <button class="btn_white">purchase theme</button>
-                  <button class="btn_red">learn more</button>
-                </div>
-  
+            <div class="carousel-item">
+              <div class="centered">
+                <h1>Whatever your <span class="txt_big">OCCASION</span>, <span class="txt_big text-danger"> TASTE</span>
+                  <span class="txt_big">makes</span> it one <br>to <span class="txt_big">remenber</span></h1>
+                <button class="btn_white">purchase theme</button>
+                <button class="btn_red">learn more</button>
               </div>
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-              <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-              <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
-              <span class="sr-only">Next</span>
-            </a>
+            <div class="carousel-item">
+              <div class="centered">
+                <h1>Whatever your <span class="txt_big">OCCASION</span>, <span class="txt_big text-danger"> TASTE</span>
+                  <span class="txt_big">makes</span> it one <br>to <span class="txt_big">remenber</span></h1>
+                <button class="btn_white">purchase theme</button>
+                <button class="btn_red">learn more</button>
+              </div>
+            </div>
           </div>
         </div>
-      </section>
-    </header>
-
+      </div>
+      <!-- <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol> -->
+    </section>
+  </header>
+  <section class="menu">
+    <div class="container">
+      <div class="page">
+        <h1 class="text-center"><span class="span-red">OUR</span> story</h1>
+        <img src="./images/decoration_line.png" alt="">
+        <p style="font-size: 25px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa doloremque aperiam commodi, nulla quam animi
+          culpa veniam similique iure ut? Commodi tenetur fugiat quisquam eos incidunt labore officia facere enim.</p>
+      </div>
+    </div>
+  </section>
   <!-- =======================Our-story=========================== -->
-<section class="bg-image">
-  <div class="container bg-relatif">
-    <div class="container  OUR-Story">
-      <h1><span class="span-red">OUR</span> story</h1>
-      <img src="./images/decoration_line.png" alt="">
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa doloremque aperiam commodi, nulla quam animi culpa veniam similique iure ut? Commodi tenetur fugiat quisquam eos incidunt labore officia facere enim.</p>
-    </div>
-    <div class="container  OUR2-Story">
-      <h1><span class="span-red">OUR</span> Menu List</h1>
-      <img src="./images/decoration_line.png" alt="">
-    </div>
-    <div class="absolute">
-      <img src="./images/box-left-top.png" class="img" alt="">
-    </div>
-    <div class="box-right-top-grey">
-      <img src="./images/box-right-top-grey.png" alt="">
-    </div>
-    <div class="box-bottom-left-grey">
-      <img src="./images/box-bottom-left.png" alt="">
-    </div>
-    <div class="box-bottom-right-grey">
-      <img src="./images/box-bottom_right-grey.png" alt="">
-    </div>
-    <div class="decoration_line">
-      <img src="./images/decoration_line.png" alt="">
-    </div>
-  </div>
-</section>
+  <!-- <section class="bg-image">
+    <div class="container ">
+      <div class="container  OUR-Story">
+        <h1><span class="span-red">OUR</span> story</h1>
+        <img src="./images/decoration_line.png" alt="">
+        <p style="font-size: 25px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa doloremque aperiam commodi, nulla quam animi
+          culpa veniam similique iure ut? Commodi tenetur fugiat quisquam eos incidunt labore officia facere enim.</p>
+      </div>
+      <div class="menu">
+        <h1 class="text-center"><span class="span-red">OUR</span> Menu List</h1>
+        <img src="./images/decoration_line.png" alt="">
+        <div class="row">
+          <div class="col-3">
+            <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+              <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</a>
+              <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</a>
+              <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Messages</a>
+              <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</a>
+            </div>
+          </div>
+          <div class="col-9">
+            <div class="tab-content" id="v-pills-tabContent">
+              <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">...</div>
+              <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">...</div>
+              <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">...</div>
+              <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">...</div>
+            </div>
+          </div>
+        </div>
+      </div> -->
+      <!-- <div class="absolute">
+        <img src="./images/box-left-top.png" class="img" alt="">
+      </div>
+      <div class="box-right-top-grey">
+        <img src="./images/box-right-top-grey.png" alt="">
+      </div>
+      <div class="box-bottom-left-grey">
+        <img src="./images/box-bottom-left.png" alt="">
+      </div>
+      <div class="box-bottom-right-grey">
+        <img src="./images/box-bottom_right-grey.png" alt="">
+      </div>
+      <div class="decoration_line">
+        <img src="./images/decoration_line.png" alt="">
+      </div> -->
+    <!-- </div>
+  </section> -->
 
-<!-- ===============================CHEF=========================== -->
-  
-<section class="bg-chef ">
-  <div class="container d-flex justify-content-around">
-    <div class="chef mt-5 ">
-      <img src="./images/chef1.png"alt="">
-    </div>
-    <div class="chef mt-5 ">
-      <img src="./images/chef2.png" alt="">
-    </div>
+  <!-- ===============================CHEF=========================== -->
 
-    <div class="chef mt-5">
-      <img src="./images/chef3.png" alt="">
+  <section class="bg-chef ">
+    <div class="d-flex justify-content-center">
+      <div class="ml-4 mt-5">
+        <h1 class="text-courgette mt-2 text-center"><span class="text-danger">MEET</span> <span class="text-white">Our Chef</span></h1>
+        <img src="./images/decoration_line.png" alt="">
+      </div>
     </div>
-    <div class="chef mt-5">
-      <img src="./images/chef4.png" alt="">
+    <div class="container d-flex justify-content-around border-x">
+      <div class="chef1 mt-5 ">
+        <img src="./images/chef1.png" alt="">
+        <h1 class="text-center">Lorem ipsum</h1>    
+      </div>
+      <div class="chef2 mt-5 ">
+        <img src="./images/chef2.png" alt="">
+        <h1 class="text-center">Lorem ipsum</h1>
+      </div>
+     
+      <div class="chef3 mt-5">
+        <img src="./images/chef3.png" alt="">
+          <h1 class="text-center">Lorem ipsum</h1>
+      </div>
+      <div class="chef4 mt-5">
+        <img src="./images/chef4.png" alt="">
+        <h1 class="text-center">Lorem ipsum</h1>
+      </div>
     </div>
-  </div>
-</section>
-<!-- ================================contact=================================== -->
-<section class="bg-contact w-100 pt-5 ">
-  <div class="container w-75 bg-white  p-0">
+  </section>
+  <!-- ================================book your table=================================== -->
+  <section class="bg-contact w-100 pt-5 pb-5 ">
+    <div class=" bg-whites w-70 p-0">
       <div class="d-flex justify-content-between">
         <img src="./images/box-left-top-grey.png" alt="">
         <div class="ml-4">
-          <h1 class="text-courgette mt-2 text-center"><span class="book-red">BOOK</span> Your Table</h1>
+          <h1 class="text-courgette mt-2 text-center"><span class="text-danger">BOOK</span> Your Table</h1>
           <img src="./images/decoration_line.png" alt="">
-        </div>    
+        </div>
         <img src="./images/box-right-top-grey.png" alt="">
       </div>
-    <div class="container w-75 img-container">
-      <div class="row inputField w-75 mx-auto pt-5 pb-5">
-        <div>
-          <p class="titre-contact">Lorem ipsum dolor sit amet consectetur. <span class="gras">0807006060607</span></p>
+      <div class="container w-75 img-container">
+        <div class="row inputField w-75 mx-auto pt-5 pb-5">
+          <div>
+            <p class="titre-contact">Lorem ipsum dolor sit amet consectetur. <span class="gras ">0807006060607</span></p>
+          </div>
+          <div class="col-6">
+            <input type="jhfjnjf" placeholder="Enter full name">
+            <input type="jdokk,d" placeholder="Phone number">
+            <input type="jhfjnjf" placeholder="Date">
+            <input type="jdokk,d" placeholder="Occasion">
+          </div>
+          <div class="col-6">
+            <input type="jhfjnjf" placeholder="Enter id">
+            <input type="jdokk,d" placeholder="No of person">
+            <input type="jhfjnjf" placeholder="Time">
+            <input type="jdokk,d" placeholder="Cuisine">
+          </div>
         </div>
-        <div class="col-6">
-          <input type="jhfjnjf" placeholder="Enter full name">
-          <input type="jdokk,d">
-          <input type="jhfjnjf">
-          <input type="jdokk,d">
-        </div>
-        <div class="col-6">
-          <input type="jhfjnjf" placeholder="Enter id">
-          <input type="jdokk,d">
-          <input type="jhfjnjf">
-          <input type="jdokk,d">
+        <div class="d-flex justify-content-center ">
+          <button type="button" class="btn btn-danger mb-5 btn-radius pl-4 pr-4 pt-3 pb-3">BOOK NOW</button>
         </div>
       </div>
-      <div class="d-flex justify-content-center ">
-        <button type="button" class="btn btn-danger mb-5 ">Danger</button>
+      <!-- att -->
+      <div class="d-flex justify-content-center">
+        <div class="ml-4 mt-5">
+          <h1 class="text-courgette mt-2 text-center"><span class="text-danger">BOOK</span> Your Table</h1>
+          <img src="./images/decoration_line.png" alt="">
+        </div>
       </div>
+      <!-- att -->
 
-    </div>
-    <div>
-      <div class="ml-4 mt-5">
-        <h1 class="text-courgette mt-2 text-center"><span class="book-red">BOOK</span> Your Table</h1>
-        <img src="./images/decoration_line.png"  alt="">
-      </div> 
-    </div>
-
-    <div class="d-flex justify-content-between ml-5 mt-5">
-      <div>
-        <img src="./images/blog_img1.jpg" alt="">
+      <div class="d-flex justify-content-between ml-5 mt-5">
+        <div class="img1-relatif">
+          <img src="./images/blog_img1.jpg" alt="">
+          <h5 class="img1-absolute bg-danger text-white">Lorem ipsum dolor sit amet.</h5>
+          <div>
+            <h5 class="text-left pt-5 bolt-black "> Lorem Ipsum</h5>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure, possimus?</p>
+          </div>
+        </div>
+        <div class="img2-relatif">
+          <img src="./images/blog_img2.jpg" alt="">
+          <h5 class="img2-absolute bg-danger text-white">Lorem ipsum dolor sit amet </h5>
+          <div>
+            <h5 class="text-left pt-5 bolt-black"> Lorem Ipsum</h5>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure, possimus?</p>
+          </div> 
+        </div>
+        <!-- <h5>Lorem ipsum dolor sit amet.</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         <h5>Lorem ipsum dolor sit amet.</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> -->
       </div>
-      <div class="img2-relatif">
-        <img src="./images/blog_img2.jpg" alt="">
-        <h5 class="img2-absolute bg-danger">Lorem ipsum dolor sit amet </h5>
-      </div>
-      <h5>Lorem ipsum dolor sit amet.</h5>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> <h5>Lorem ipsum dolor sit amet.</h5>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-    </div>
 
-    <div class="d-flex justify-content-between">
-      <div>
-        <img  src="./images/box-bottom-left-grey.png" alt="">
-      </div>
-      <div>
-        <img src="./images/box-bottom_right-grey.png" alt="">
-      </div>
-    </div>
-  </div>
-</section>
-
-<!--=====================TESTIMONIALS======================= -->
-
-<section class="img-testimonials">
-  <div class="card mb-3" style="max-width: 540px;">
-    <div class="row no-gutters">
-      <div class="col-md-4">
-        <img src="./images/testimonial1.jpg" class="card-img" alt="...">
-      </div>
-      <div class="col-md-8">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      <div class="d-flex justify-content-between">
+        <div>
+          <img src="./images/box-bottom-left-grey.png" alt="">
+        </div>
+        <div>
+          <img src="./images/box-bottom_right-grey.png" alt="">
         </div>
       </div>
     </div>
-  </div>
+  </section>
+
+  <!--=====================TESTIMONIALS======================= -->
+
+  <section class="img-testimonials">
+    <div>
+      <div class="row no-gutters ">
+        <div class="col-md-4 width-image">
+          <img src="./images/testimonial1.jpg" class="card-img" alt="...">
+        </div>
+        <div class="col-md-8 card mb-3" style="max-width: 540px;">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+              content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================our contact========================= -->
+  <section class="our-contact">
+    <div class="container py-5 ">
+      <h1 class="text-center pb-5 courgette-contact"> <span class="text-danger">OUR</span>  contact</h1>
+      <div class="jumbotron bg-danger ">
+        <i class="fas fa-map-marker-alt " style="margin-left: 500px;
+      font-size: 50px;"></i>
+        <p class="text-center" style="margin-top: 15px;">Rue de la minoterie 10, 1080 molembeek</p>
+        <hr class="my-4">
+        <i class="fas fa-phone-alt" style="margin-left: 500px;
+      font-size: 50px;"></i>
+        <p class="text-center" style="margin-top: 15px;">+08980896969</p>
+        <hr class="my-4">
+        <i class="far fa-envelope" style="margin-left: 500px;
+      font-size: 50px ; margin-top: 10px;"></i>
+        <p class="text-center" style="margin-top: 15px;">akjjaj@gmail.com</p>
+      </div>
+    </div>
+  </section>
+  <!-- =======================logo etc====================== -->
+  <section class="bg-logo">
+    <div class="row fréro1">
+      <div class="d-flex text-white col-4 fréro text-center">
+        <h4>ABOUT US</h4>
+        <br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore amet nihil, excepturi recusandae fugiat
+          quibusdam quos officiis sapiente iusto delectus, ipsam itaque, neque deserunt labore necessitatibus similique
+          est facilis alias!</p>
+        <div class="d-flex ">
+          <i class="fab fa-facebook-f radius"></i>
+          <i class="fab fa-google-plus-g radius"></i>
+          <i class="fab fa-pinterest-p radius"></i>
+          <i class="fab fa-linkedin-in radius"></i>
+        </div>
+      </div>
+      <div class=" d-flex col-4 text-white fréro">
+        <h4>INSTAGRAM</h4>
+        <br>
+        <div>
+          <img src="./images/instragram_gallery_img1.jpg" alt="">
+          <img src="./images/instragram_gallery_img2.jpg" alt="">
+          <img src="./images/instragram_gallery_img1.jpg" alt="">
+          <img src="./images/instragram_gallery_img2.jpg" alt="">
+        </div>
+        <br>
+        <div>
+          <img src="./images/instragram_gallery_img1.jpg" alt="">
+          <img src="./images/instragram_gallery_img2.jpg" alt="">
+          <img src="./images/instragram_gallery_img1.jpg" alt="">
+          <img src="./images/instragram_gallery_img2.jpg" alt="">
+        </div>
+      </div>
+      <div class="col-3 text-white fréro2 pr-0">
+        <h4>POPULAR TAGS</h4>
+        <span class="badge badge-pill badge-danger border border-white">Restaurant</span>
+        <span class="badge badge-pill badge-danger border border-white">Responsive design</span>
+        <span class="badge badge-pill badge-danger border border-white">Hotel</span>
+        <br>
+        <span class="badge badge-pill badge-danger border border-white">Blog section</span>
+        <span class="badge badge-pill badge-danger border border-white">SEO</span>
+        <span class="badge badge-pill badge-danger border border-white">Cuisine</span>
+        <br>
+        <span class="badge badge-pill badge-danger border border-white">Graphic</span>
+        <span class="badge badge-pill badge-danger border border-white">Food</span>
+      </div>
+
+    </div>
+
+  </section>
+  <!-- =======================footer====================== -->
+  <section class="bg-danger w-100 h-100 pt-5 pb-5"></section>
 
 
-</section>
 
 
 
 
-      
-    
-    
-    
-
-    
- 
 
 
-            
 
 
-   
-    
-    <script src="./node_modules/jquery/dist/jquery.js"></script>
-    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
-    <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="./node_modules/jquery/dist/jquery.js"></script>
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+
 </body>
+
 </html>

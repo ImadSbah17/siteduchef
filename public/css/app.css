@@ -9910,29 +9910,78 @@ h3 {
     border-color: #dee2e6;
   }
 }
+.our-contact {
+  background-image: url(../../images/main_bg.jpg);
+  width: 100%;
+  height: 1000px;
+}
+
+.bg-logo {
+  background-image: url(../../images/footer_background.jpg);
+  width: 100%;
+  height: 400px;
+}
+
+.fréro1 {
+  height: 400px;
+  width: 100%;
+}
+
+.fréro {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.fréro2 {
+  margin-top: 100px;
+}
+
+.radius {
+  border-radius: 100%;
+  font-size: 30px;
+  margin: 10px;
+}
+
+.courgette-contact {
+  font-family: "Courgette", cursive;
+}
+
 .img-testimonials {
   background-image: url(../../images/testimonials_background.jpg);
   background-repeat: no-repeat;
   width: 100%;
-  height: 800px;
+  height: 500px;
+}
+
+.width-image {
+  width: 10%;
 }
 
 .card-img {
+  width: 200px;
   border-radius: 50%;
   border: 3px solid lightgrey;
+  margin-left: 300px;
 }
 
 .card {
   background: none;
 }
 
-.bg-contact {
-  background-image: url(../../images/main_bg.jpg);
-  height: 1400px;
+.mt-0 {
+  margin-top: 30px;
 }
 
-.book-red {
-  color: red;
+.bg-contact {
+  background-image: url(../../images/main_bg.jpg);
+}
+
+.bg-whites {
+  background-color: white;
+  width: 70%;
+  margin-left: 300px;
+  margin-right: 300px;
 }
 
 .text-courgette {
@@ -9959,6 +10008,18 @@ h3 {
   font-size: 20px;
 }
 
+.img1-relatif {
+  position: relative;
+}
+
+.img1-absolute {
+  position: absolute;
+  border-radius: 15px;
+  padding: 15px;
+  top: 240px;
+  left: 100px;
+}
+
 .img2-relatif {
   position: relative;
 }
@@ -9971,60 +10032,41 @@ h3 {
   left: 100px;
 }
 
+.bolt-black {
+  font-weight: bold;
+}
+
+.btn-radius {
+  border-radius: 45px;
+}
+
 .bg-chef {
   background-image: url(../../images/team_background.jpg);
   background-repeat: no-repeat;
-  width: 100%;
-  height: 500px;
+  height: 600px;
 }
 
-.chef {
+.bg-chef .border-x img {
   border-bottom: solid white;
 }
+.bg-chef .border-x h1 {
+  color: white;
+  font-size: 19px;
+}
 
-.bg-image {
+.menu {
   background-image: url(../../images/main_bg.jpg);
-  width: 100%;
-  height: 1400px;
 }
-
-.bg-relatif {
-  position: relative;
-  top: 100px;
+.menu .page {
   background-color: white;
-  border: solid grey;
-  width: 1500px;
-  height: 1200px;
-  padding: 0;
+}
+.menu .page img {
+  margin-left: 200px;
 }
 
-.OUR-Story {
-  position: absolute;
-  width: 40%;
-  top: 10px;
-  left: 300px;
-}
-.OUR-Story h1 {
-  text-align: center;
-  font-family: "Courgette", cursive;
-}
-.OUR-Story img {
-  margin-right: 20px;
-}
-.OUR-Story p {
-  margin-top: 20px;
-  margin-left: 15px;
-}
-
-.OUR2-Story {
-  position: absolute;
-  width: 40%;
-  bottom: 650px;
-  left: 300px;
-  font-family: "Courgette", cursive;
-}
-.OUR2-Story h1 {
-  text-align: center;
+.menu img {
+  display: flex;
+  align-items: center;
 }
 
 .span-red {
@@ -10108,6 +10150,7 @@ body {
 
 .a-style:hover {
   background-color: red;
+  color: white;
 }
 
 /*# sourceMappingURL=app.css.map */
