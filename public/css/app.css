@@ -9953,16 +9953,14 @@ h3 {
   width: 100%;
   height: 500px;
 }
-
 .width-image {
   width: 10%;
 }
 
 .card-img {
-  width: 200px;
+  width: 150px;
   border-radius: 50%;
   border: 3px solid lightgrey;
-  margin-left: 300px;
 }
 
 .card {
@@ -10059,44 +10057,17 @@ h3 {
 }
 .menu .page {
   background-color: white;
+  width: 70%;
+  margin-left: 300px;
+  margin-right: 300px;
 }
-.menu .page img {
-  margin-left: 200px;
-}
-
-.menu img {
-  display: flex;
-  align-items: center;
+.row img {
+  border-radius: 100%;
+  border: solid whitesmoke 5px;
 }
 
 .span-red {
   color: red;
-}
-
-.absolute {
-  position: absolute;
-}
-
-.box-right-top-grey {
-  position: absolute;
-  right: 0;
-}
-
-.box-bottom-left-grey {
-  position: absolute;
-  bottom: 0;
-}
-
-.box-bottom-right-grey {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-}
-
-.decoration_line {
-  position: absolute;
-  bottom: 30px;
-  left: 300px;
 }
 
 body {
@@ -10106,6 +10077,7 @@ body {
 
 .img-header img {
   position: relative;
+  opacity: 0.5;
 }
 
 .p-relative {
@@ -10126,13 +10098,37 @@ body {
   height: 20px;
 }
 
+.padding {
+  padding-top: 30px;
+  padding-left: 200px;
+}
+
+.btn {
+  border-radius: 35px;
+  border: none;
+  width: 200px;
+}
+
+.text1 {
+  font-size: 100px;
+}
+
+.img-absolute {
+  background-image: url(../../images/bottom_decoration_img.png);
+  position: relative;
+  padding-top: 10px;
+  width: 100%;
+  bottom: 20px;
+}
+
 .nav-link {
   text-decoration: none;
   color: black;
 }
 
 .carousel-indicators {
-  margin-top: 500px;
+  position: absolute;
+  top: 1100px;
 }
 
 .centered {
