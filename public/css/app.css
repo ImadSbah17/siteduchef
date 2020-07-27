@@ -9920,6 +9920,15 @@ h3 {
   background-image: url(../../images/footer_background.jpg);
   width: 100%;
   height: 400px;
+  position: relative;
+}
+
+.img-absolute1 {
+  background-image: url(../../images/footer_bottom_decoration_img.png);
+  height: 15px;
+  top: 0px;
+  position: absolute;
+  width: 100%;
 }
 
 .fréro1 {
@@ -10077,7 +10086,8 @@ body {
 
 .img-header img {
   position: relative;
-  opacity: 0.5;
+  opacity: 0.9;
+  filter: brightness(40%);
 }
 
 .p-relative {
@@ -10115,10 +10125,10 @@ body {
 
 .img-absolute {
   background-image: url(../../images/bottom_decoration_img.png);
-  position: relative;
-  padding-top: 10px;
+  position: absolute;
+  top: 1210px;
+  height: 15px;
   width: 100%;
-  bottom: 20px;
 }
 
 .nav-link {
